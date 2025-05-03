@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .controls {
+    margin-bottom: 1rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+    line-height: 200px;
+    font-size: 2rem;
+    user-select: none;
+    transition: transform 0.1s;
+  }
+  
+  .btn:active {
+    transform: scale(0.9);
+  }
+  
+  .pink   { background-color: #FFAEBC; }
+  .blue   { background-color: #A0E7E5; }
+  .mint   { background-color: #B4F8C8; }
+  .yellow { background-color: #FBE7C6; }
+  
+  .flash     { background-color: white !important; }
+  .userflash { background-color: green !important; }
+  
